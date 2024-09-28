@@ -1,0 +1,29 @@
+package in.pwskills.pritam.bean;
+
+import java.io.Serializable;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.springframework.stereotype.Component;
+@Component
+public class Employee implements Serializable{
+	
+	static {
+		System.out.println("Employee.class is loading");
+	}
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", eage=" + eage + "]";
+	}
+	private Integer eid;
+	private String ename;
+	private Float eage;
+	
+}

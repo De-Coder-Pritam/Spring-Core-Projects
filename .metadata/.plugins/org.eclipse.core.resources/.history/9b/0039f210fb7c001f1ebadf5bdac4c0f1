@@ -1,0 +1,11 @@
+package in.pwskills.pritam.bean;
+
+public class FedEx implements ICourier {
+
+	@Override
+	public String deliverOrder(Integer oid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

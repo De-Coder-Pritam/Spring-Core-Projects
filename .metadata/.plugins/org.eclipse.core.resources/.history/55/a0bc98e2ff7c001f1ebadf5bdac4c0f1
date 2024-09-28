@@ -1,0 +1,5 @@
+package in.pwskills.pritam.dao;
+
+public class EmployeeMysqlDaoImpl implements IEmployeeDao {
+
+}

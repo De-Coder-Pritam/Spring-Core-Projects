@@ -1,0 +1,15 @@
+package in.pwskills.pritam.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DTDC implements ICourier {
+	
+	@Autowired
+	private ICourier courier;
+	@Override
+	public String deliverOrder(Integer oid) {
+		
+		return null;
+	}
+
+}

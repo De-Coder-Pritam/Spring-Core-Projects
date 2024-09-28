@@ -1,0 +1,8 @@
+package in.pwskills.pritam.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component("mysqlDao")
+public class EmployeeMysqlDaoImpl implements IEmployeeDao {
+
+}

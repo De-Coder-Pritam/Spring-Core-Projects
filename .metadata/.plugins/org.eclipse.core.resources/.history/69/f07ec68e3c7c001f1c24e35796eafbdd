@@ -1,0 +1,22 @@
+package in.pwskills.pritam.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import in.pwskills.pritam.bean.WishMessageGenerator;
+
+
+@Configuration
+public class AppConfig {
+	static {
+		System.out.println("AppConfig.class file is loading...");
+	}
+	public AppConfig() {
+		System.out.println("AppConfig object is created...");
+	}
+	@Bean(name="wmg")
+	public WishMessageGenerator wmgObj() {
+		System.out.println("Appconfig.wmgObj() method invoked...");
+		return null;
+	}
+}
